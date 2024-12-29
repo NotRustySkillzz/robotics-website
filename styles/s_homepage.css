@@ -1,0 +1,112 @@
+.c_page_title {
+    width: 500px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page_title_1,
+.page_title_2,
+.page_title_3,
+.page_title_4 {
+    color: #059212;
+    font-size: 50px;
+    text-align: center;
+    font-family: Audiowide;
+    text-shadow: -1px 1px 4px #06D001;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.c_title_1 {
+    text-align: center;
+}
+.page_title_4 {
+    display: block;
+}
+
+.moto {
+    color: #059212;
+    font-size: 25px;
+    text-align: center;
+    font-family: Audiowide;
+    text-shadow: -1px 1px 4px #06D001;
+}
+.vit_logo,
+.club_logo {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+
+.vit_logo {
+    width: 250px;
+}
+
+.club_logo {
+    margin-top: 45px; 
+}
+
+
+.grid_1 {
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content_title,
+.content_tag,
+.content_body {
+    color: white;
+    font-family: Arial;
+}
+
+.content_title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.content_tag {
+    width: 350px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+.robot {
+    width: 300px;
+    float: right;
+    margin-right: 50px;
+}
+
+.r_eyes {
+    padding-top: 0px;
+    width: 50px;
+    height: 64px;
+}
+
+.c_eyes {
+    display: inline-block;
+}
