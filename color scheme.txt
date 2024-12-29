@@ -1,5 +1,5 @@
-color scheme
-#000000 - pg bg
-#FFFDF0 - text color
-#89A8B2 - text shadow
-#BCCCDC - picture bg
+#3D52A0
+#7091E6
+#8697C4
+#ADBBDA
+#EDE8F5
