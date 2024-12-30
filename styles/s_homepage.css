@@ -102,7 +102,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    text-align: center;
+    align-items: center;
 }
 
 .club_title,
@@ -116,6 +116,7 @@ body {
 
 .tag_title {
     font-size: 30px;
+    cursor: default;
 }
 
 .wave-container {
@@ -126,6 +127,7 @@ body {
     font-weight: normal;
     color: #FFFFFF;
     cursor: default;
+    width: 500px;
 }
 
 /* Remove default animation */
@@ -215,4 +217,9 @@ span {
     100% {
         transform: translateY(0);
     }
+}
+
+.end {
+    margin-left: 100px;
+    margin-top: 100px;
 }
