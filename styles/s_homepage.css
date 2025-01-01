@@ -109,7 +109,7 @@ body {
 .vit_title,
 .tag_title {
     font-size: 40px;
-    font-family: Arial;
+    font-family: Kanit;
     color: #FFFFF0;
     text-shadow: 1px 1px 2px #080808;
 }
@@ -231,7 +231,7 @@ span {
 
 .know_abt_club {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 100px;
 }
@@ -243,11 +243,12 @@ span {
     margin-top: 100px;
 }
 
-.content_text1, 
+.content_text1,
 .content_text2 {
     color: white;
     margin-bottom: 10px;
-    
+    font-family: kanit;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .content_text1 {
