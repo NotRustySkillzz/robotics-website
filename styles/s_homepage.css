@@ -117,6 +117,9 @@ body {
 .tag_title {
     font-size: 30px;
     cursor: default;
+    font-family: Exo 2;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .wave-container {
@@ -130,7 +133,6 @@ body {
     width: 500px;
 }
 
-/* Remove default animation */
 span {
     margin: 0;
     padding: 0;
@@ -139,7 +141,6 @@ span {
     cursor: default;
 }
 
-/* Initially no animation */
 .wave-text {
     display: inline-block;
     transform: translateY(0);
@@ -150,12 +151,10 @@ span {
 
 }
 
-/* Trigger animation on hover */
 .wave-container:hover .wave-text {
     animation: wave 0.5s ease-in-out forwards;
 }
 
-/* Adjust timing of each letter's wave animation */
 .wave-text:nth-child(1) {
     animation-delay: 0s;
 }
@@ -286,8 +285,10 @@ span {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    border: none;
     box-shadow: 3px 3px 5px #000000, 2px 2px 3px #FFFFF0 inset;
-    transition: background-color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, box-shadow 0.5s, transform 0.3s ease-in-out;
+    opacity: 0.9;
 }
 
 .controls {
@@ -300,28 +301,28 @@ span {
     width: 100px;
 }
 
-.next_button {
-    left: 1440px;
+.next_button,
+.previous_button {
     width: 70px;
-    top: 630px;
+    top: 1050px;
     position: absolute;
-    background-color: lightblue;
+    background-color: #0F52BA;
     color: yellow;
     z-index: 1000;
     padding: 6px;
     border-radius: 20px;
+    font-family: Bebas Neue;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.next_button {
+    left: 1440px;
 }
 .previous_button {
     left: 10px;
-    top: 630px;
-    width: 70px;
-    position: absolute;
-    background-color: lightblue;
-    color: yellow;
-    z-index: 1000;
-    padding: 6px;
-    border-radius: 20px;
-
 }
 .translate {
     transform: translate(-420px);
@@ -329,20 +330,11 @@ span {
 
 .image_container:hover {
     background-color: #FFFFFF;
-    box-shadow: 3px 3px 5px #000000;
+    border: none;
+    opacity: 1;
+    z-index: 100;
 }
 
 .image {
     width: 280px;
-}
-
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    background-color: #404040;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 2px 0px 5px #000000;
-    margin-top: 100px;
 }
