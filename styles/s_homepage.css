@@ -35,16 +35,16 @@ body {
     width: 150px;
 }
 
-    .vit_logo:hover {
-        cursor: pointer;
-        border: 2px #FFFFFF;
-        box-shadow: 3px 3px 4px #DCDCDC;
-    }
+.vit_logo:hover {
+    cursor: pointer;
+    border: 2px #FFFFFF;
+    box-shadow: 3px 3px 4px #000000;
+}
 
-    .club_logo:hover {
-        cursor: pointer;
-        box-shadow: 3px 3px 4px #DCDCDC;
-    }
+.club_logo:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 4px #000000;
+}
 
 .navbar {
     background-color: #E32636;
@@ -56,12 +56,12 @@ body {
     display: flex;
     align-items: center;
     margin-left: 20px;
-    box-shadow: 2px 2px 5px #FBCEB1;
+    box-shadow: 2px 2px 5px #282828;
 }
 
-    .navbar:hover {
-        width: 500px;
-    }
+.navbar:hover {
+    width: 500px;
+}
 
 .nav-links {
     list-style: none;
@@ -72,9 +72,9 @@ body {
     justify-content: space-around;
 }
 
-    .nav-links li {
-        display: none;
-    }
+.nav-links li {
+    display: none;
+}
 
 .navbar:hover .nav-links li {
     display: block;
@@ -90,9 +90,9 @@ body {
     border-radius: 10px;
 }
 
-    .nav-links a:hover {
-        background-color: #fd5c63;
-    }
+.nav-links a:hover {
+    background-color: #fd5c63;
+}
 
 .nav-links li:first-child {
     display: block;
@@ -145,6 +145,9 @@ span {
     transform: translateY(0);
     animation: none;
     cursor: default;
+    text-shadow: 2px 2px 2px #080808;
+    font-weight: bold;
+
 }
 
 /* Trigger animation on hover */
@@ -221,5 +224,124 @@ span {
 
 .end {
     margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+.know_abt_club {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.our_events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.content_text1, 
+.content_text2 {
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.content_text1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content_text2 {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 540;
+}
+
+.gallery_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('../images/robotic_background.jpg');
+    border: none;
+    padding: 10px;
+    -webkit-box-shadow: 2px 3px 8px #000000;
+    -moz-box-shadow: 2px 3px 8px #000000;
+    box-shadow: 2px 3px 8px #000000;
+}
+
+.image_parent_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image_container {
+    width: 280px;
+    height: 300px;
+    background-color: #F0F0F0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #000000, 2px 2px 3px #FFFFF0 inset;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+    height: 20px;
+    position: relative;
+    top: 150px;
+    width: 100px;
+}
+
+.next_button {
+    left: 1440px;
+    width: 70px;
+    top: 630px;
+    position: absolute;
+    background-color: lightblue;
+    color: yellow;
+    z-index: 1000;
+    padding: 6px;
+    border-radius: 20px;
+}
+.previous_button {
+    left: 10px;
+    top: 630px;
+    width: 70px;
+    position: absolute;
+    background-color: lightblue;
+    color: yellow;
+    z-index: 1000;
+    padding: 6px;
+    border-radius: 20px;
+
+}
+.translate {
+    transform: translate(-420px);
+}
+
+.image_container:hover {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 5px #000000;
+}
+
+.image {
+    width: 280px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #404040;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px #000000;
     margin-top: 100px;
 }
